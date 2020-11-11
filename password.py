@@ -8,6 +8,11 @@ while times <= 3 and times > 0 :
         break
     else:
         times = times - 1
-        print('密碼錯誤還有',times, '次機會')
+        if times == 2:
+            print('密碼錯誤還有',times, '次機會')
+        elif times == 1:
+            print('密碼錯誤還有',times, '次機會')
+        else:
+            break
 
     
